@@ -9,5 +9,6 @@ spec:
   source:
     git:
       uri: https://github.com/olazzizz/pipeline
+      ref: main
 
 
