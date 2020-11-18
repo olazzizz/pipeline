@@ -7,7 +7,7 @@ spec:
     type: JenkinsPipeline
     jenkinsPipelineStrategy: {}
   source:
-    contextDir: pipeline
     git:
-      uri: https://github.com/olazzizz/DO288-apps
+      uri: https://github.com/olazzizz/pipeline
+
 
