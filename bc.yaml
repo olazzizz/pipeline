@@ -1,0 +1,13 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: my-pipeline
+spec:
+  strategy:
+    type: JenkinsPipeline
+    jenkinsPipelineStrategy: {}
+  source:
+    contextDir: pipeline
+    git:
+      uri: https://github.com/olazzizz/DO288-apps
+
